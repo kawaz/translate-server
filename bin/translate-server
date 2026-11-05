@@ -1,0 +1,56 @@
+#!/bin/bash
+# translate-server: PLaMo 3 Translate (GGUF) を llama-server でフォアグラウンド起動する。
+# モデルと chat_template.jinja が cache に無ければ Hugging Face から取得する (再取得できるので cache に置く)。
+# usage: translate-server [--port N] [--host H] [--fetch-only]
+set -euo pipefail
+
+port=8087
+host=127.0.0.1
+fetch_only=0
+while [ $# -gt 0 ]; do
+	case "$1" in
+	--port) port="$2"; shift 2 ;;
+	--host) host="$2"; shift 2 ;;
+	--fetch-only) fetch_only=1; shift ;;
+	-h|--help)
+		sed -n '2,4p' "$0" | sed 's/^# \{0,1\}//'
+		exit 0 ;;
+	*) echo "translate-server: unknown option: $1" >&2; exit 2 ;;
+	esac
+done
+
+model_repo="${TRANSLATE_SERVER_MODEL_REPO:-pfnet/plamo-3-translate-0.8b-GGUF}"
+model_file="${TRANSLATE_SERVER_MODEL_FILE:-plamo-3-translate-0.8b-Q4_K_M.gguf}"
+parallel="${TRANSLATE_SERVER_PARALLEL:-4}"
+ctx="${TRANSLATE_SERVER_CTX:-16384}"
+cache_dir="${XDG_CACHE_HOME:-$HOME/.cache}/translate-server/models/${model_repo#*/}"
+gguf="$cache_dir/$model_file"
+template="$cache_dir/chat_template.jinja"
+base="https://huggingface.co/$model_repo/resolve/main"
+
+fetch() {
+	# 途中で落ちた不完全なファイルを掴まないよう、.part に落としてから rename する
+	local url="$1" dest="$2"
+	[ -f "$dest" ] && return 0
+	mkdir -p "$(dirname "$dest")"
+	echo "translate-server: fetching $(basename "$dest")" >&2
+	curl -fL --retry 3 -o "$dest.part" "$url"
+	mv "$dest.part" "$dest"
+}
+fetch "$base/$model_file" "$gguf"
+fetch "$base/chat_template.jinja" "$template"
+[ "$fetch_only" = 1 ] && exit 0
+
+llama_server="${TRANSLATE_SERVER_LLAMA:-$(command -v llama-server || true)}"
+for candidate in /opt/homebrew/bin/llama-server /usr/local/bin/llama-server; do
+	[ -n "$llama_server" ] && break
+	[ -x "$candidate" ] && llama_server="$candidate"
+done
+if [ -z "$llama_server" ]; then
+	echo "translate-server: llama-server not found. Run 'just setup' or 'brew install llama.cpp'." >&2
+	exit 1
+fi
+
+# --no-prefill-assistant と chat_template.jinja はモデルカードの指定。--parallel は同時に decode する系列数。
+exec "$llama_server" -m "$gguf" -c "$ctx" --host "$host" --port "$port" --alias plamo-3-translate \
+	--chat-template-file "$template" --no-prefill-assistant --parallel "$parallel"
