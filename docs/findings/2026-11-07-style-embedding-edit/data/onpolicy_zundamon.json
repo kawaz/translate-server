@@ -1,0 +1,1485 @@
+[
+ {
+  "en": "Good morning. How are you today?",
+  "form": "plain",
+  "base": "おはよう。今日は調子どう？",
+  "ja": "おはよう。今日は調子どう？",
+  "lift": []
+ },
+ {
+  "en": "I don't like this tea. Bring me another one.",
+  "form": "plain",
+  "base": "このお茶、好きじゃない。もう一杯持ってきて。",
+  "ja": "このお茶、好きじゃないのだ。もう一杯持ってきて。",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    13,
+    14
+   ]
+  ]
+ },
+ {
+  "en": "That is a wonderful idea!",
+  "form": "plain",
+  "base": "それは素晴らしいアイデアだね！",
+  "ja": "それは素晴らしいアイデアだね！",
+  "lift": []
+ },
+ {
+  "en": "Thanks. See you later.",
+  "form": "plain",
+  "base": "ありがとう。じゃあまた後で。",
+  "ja": "ありがとう。じゃあまた後で。",
+  "lift": []
+ },
+ {
+  "en": "Did you really do that by yourself?",
+  "form": "plain",
+  "base": "本当に一人でやったの？",
+  "ja": "本当に一人でやったのだ？",
+  "lift": [
+   [
+    10,
+    11
+   ],
+   [
+    11,
+    12
+   ]
+  ]
+ },
+ {
+  "en": "I'm tired. Let's go home.",
+  "form": "plain",
+  "base": "疲れた。帰ろう。",
+  "ja": "疲れたのだ。帰ろう。",
+  "lift": [
+   [
+    3,
+    5
+   ],
+   [
+    5,
+    6
+   ]
+  ]
+ },
+ {
+  "en": "The file could not be found. Please check the path and try again.",
+  "form": "plain",
+  "base": "ファイルが見つかりませんでした。パスを確認して、もう一度お試しください。",
+  "ja": "ファイルが見つかりませんでしたのだ。パスを確認して、もう一度お試しくださいのだ。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    37,
+    39
+   ],
+   [
+    39,
+    40
+   ]
+  ]
+ },
+ {
+  "en": "Could you open the window? It's a little hot in here.",
+  "form": "plain",
+  "base": "窓を開けてくれる？ここ、ちょっと暑いんだ。",
+  "ja": "窓を開けてくれるのだ？ここ、ちょっと暑いんだ。",
+  "lift": [
+   [
+    8,
+    10
+   ],
+   [
+    10,
+    11
+   ]
+  ]
+ },
+ {
+  "en": "I'm sorry I'm late. The train was delayed.",
+  "form": "plain",
+  "base": "遅れてごめん。電車が遅れちゃったんだ。",
+  "ja": "遅れてごめん。電車が遅れちゃったんだ。",
+  "lift": []
+ },
+ {
+  "en": "Have you ever been to the sea in winter?",
+  "form": "plain",
+  "base": "冬に海に行ったことある？",
+  "ja": "冬に海に行ったことあるのだ？",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    13,
+    14
+   ]
+  ]
+ },
+ {
+  "en": "This cake is delicious. Did you make it yourself?",
+  "form": "plain",
+  "base": "このケーキ、美味しいね。自分で作ったの？",
+  "ja": "このケーキ、美味しいね。自分で作ったのだ？",
+  "lift": [
+   [
+    19,
+    20
+   ],
+   [
+    20,
+    21
+   ]
+  ]
+ },
+ {
+  "en": "I don't think that's a good idea.",
+  "form": "plain",
+  "base": "それはいい考えだとは思わないな。",
+  "ja": "それはいい考えだとは思わないな。",
+  "lift": []
+ },
+ {
+  "en": "Let's meet at the station at noon.",
+  "form": "plain",
+  "base": "正午に駅で待ち合わせしよう。",
+  "ja": "正午に駅で待ち合わせしよう。",
+  "lift": []
+ },
+ {
+  "en": "I forgot my umbrella again.",
+  "form": "plain",
+  "base": "また傘を忘れちゃった。",
+  "ja": "また傘を忘れちゃったのだ。",
+  "lift": [
+   [
+    10,
+    12
+   ],
+   [
+    12,
+    13
+   ]
+  ]
+ },
+ {
+  "en": "What are you doing this weekend?",
+  "form": "plain",
+  "base": "今週末は何するの？",
+  "ja": "今週末は何するのだ？",
+  "lift": [
+   [
+    8,
+    9
+   ],
+   [
+    9,
+    10
+   ]
+  ]
+ },
+ {
+  "en": "Don't worry. Everything will be fine.",
+  "form": "plain",
+  "base": "心配しないで。全部うまくいくよ。",
+  "ja": "心配しないで。全部うまくいくよ。",
+  "lift": []
+ },
+ {
+  "en": "I can't believe he said that to you.",
+  "form": "plain",
+  "base": "彼が君にあんなことを言うなんて信じられない。",
+  "ja": "彼が君にあんなことを言うなんて信じられないのだ。",
+  "lift": [
+   [
+    21,
+    23
+   ],
+   [
+    23,
+    24
+   ]
+  ]
+ },
+ {
+  "en": "Please wait here for a moment.",
+  "form": "plain",
+  "base": "ここで少々お待ちください。",
+  "ja": "ここで少々お待ちくださいのだ。",
+  "lift": [
+   [
+    12,
+    14
+   ],
+   [
+    14,
+    15
+   ]
+  ]
+ },
+ {
+  "en": "I really want to see that movie.",
+  "form": "plain",
+  "base": "あの映画、本当に見たいんだ。",
+  "ja": "あの映画、本当に見たいんだ。",
+  "lift": []
+ },
+ {
+  "en": "Why didn't you tell me earlier?",
+  "form": "plain",
+  "base": "なんでもっと早く教えてくれなかったの？",
+  "ja": "なんでもっと早く教えてくれなかったのだ？",
+  "lift": [
+   [
+    18,
+    19
+   ],
+   [
+    19,
+    20
+   ]
+  ]
+ },
+ {
+  "en": "We should leave before it gets dark.",
+  "form": "plain",
+  "base": "暗くなる前に出発すべきだ。",
+  "ja": "暗くなる前に出発すべきなのだ。",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    14,
+    15
+   ]
+  ]
+ },
+ {
+  "en": "My cat always sleeps on my bed.",
+  "form": "plain",
+  "base": "うちの猫はいつも私のベッドで寝ている。",
+  "ja": "うちの猫はいつも私のベッドで寝ているのだ。",
+  "lift": [
+   [
+    18,
+    20
+   ],
+   [
+    20,
+    21
+   ]
+  ]
+ },
+ {
+  "en": "Is this seat taken?",
+  "form": "plain",
+  "base": "この席、空いてる？",
+  "ja": "この席、空いてるのだ？",
+  "lift": [
+   [
+    8,
+    10
+   ],
+   [
+    10,
+    11
+   ]
+  ]
+ },
+ {
+  "en": "The function returns an empty list if no items match the filter.",
+  "form": "plain",
+  "base": "フィルターに一致する項目がない場合、関数は空のリストを返す。",
+  "ja": "フィルターに一致する項目がない場合、関数は空のリストを返す。",
+  "lift": []
+ },
+ {
+  "en": "Install the package and restart your terminal.",
+  "form": "plain",
+  "base": "パッケージをインストールして、ターミナルを再起動してください。",
+  "ja": "パッケージをインストールして、ターミナルを再起動してくださいのだ。",
+  "lift": [
+   [
+    30,
+    32
+   ],
+   [
+    32,
+    33
+   ]
+  ]
+ },
+ {
+  "en": "This option is deprecated and will be removed soon.",
+  "form": "plain",
+  "base": "このオプションは非推奨となっており、まもなく削除されます。",
+  "ja": "このオプションは非推奨となっており、まもなく削除されます。",
+  "lift": []
+ },
+ {
+  "en": "The build failed because a dependency could not be downloaded.",
+  "form": "plain",
+  "base": "依存関係をダウンロードできなかったため、ビルドに失敗した。",
+  "ja": "依存関係をダウンロードできなかったため、ビルドに失敗したのだ。",
+  "lift": [
+   [
+    28,
+    30
+   ],
+   [
+    30,
+    31
+   ]
+  ]
+ },
+ {
+  "en": "Save your changes before closing the editor.",
+  "form": "plain",
+  "base": "エディタを閉じる前に、変更内容を保存してください。",
+  "ja": "エディタを閉じる前に、変更内容を保存してくださいのだ。",
+  "lift": [
+   [
+    24,
+    26
+   ],
+   [
+    26,
+    27
+   ]
+  ]
+ },
+ {
+  "en": "The cache is cleared every time the application starts.",
+  "form": "plain",
+  "base": "アプリケーションが起動するたびにキャッシュがクリアされる。",
+  "ja": "アプリケーションが起動するたびにキャッシュがクリアされるのだ。",
+  "lift": [
+   [
+    28,
+    30
+   ],
+   [
+    30,
+    31
+   ]
+  ]
+ },
+ {
+  "en": "You need administrator rights to change this setting.",
+  "form": "plain",
+  "base": "この設定を変更するには、管理者権限が必要だ。",
+  "ja": "この設定を変更するには、管理者権限が必要なのだ。",
+  "lift": [
+   [
+    20,
+    22
+   ],
+   [
+    23,
+    24
+   ]
+  ]
+ },
+ {
+  "en": "Each request must include a valid API key in the header.",
+  "form": "plain",
+  "base": "各リクエストのヘッダーには、有効なAPIキーを含める必要がある。",
+  "ja": "各リクエストのヘッダーには、有効なAPIキーを含める必要があるのだ。",
+  "lift": [
+   [
+    31,
+    33
+   ],
+   [
+    33,
+    34
+   ]
+  ]
+ },
+ {
+  "en": "The test passes on Linux but fails on Windows.",
+  "form": "plain",
+  "base": "このテストはLinuxでは通るが、Windowsでは落ちる。",
+  "ja": "このテストはLinuxでは通るが、Windowsでは落ちるのだ。",
+  "lift": [
+   [
+    29,
+    31
+   ],
+   [
+    31,
+    32
+   ]
+  ]
+ },
+ {
+  "en": "Check the log file for more details.",
+  "form": "plain",
+  "base": "詳細はログファイルを確認してください。",
+  "ja": "詳細はログファイルを確認してくださいのだ。",
+  "lift": [
+   [
+    18,
+    20
+   ],
+   [
+    20,
+    21
+   ]
+  ]
+ },
+ {
+  "en": "The server responds with an error when the input is too large.",
+  "form": "plain",
+  "base": "入力が大きすぎると、サーバーはエラーを返す。",
+  "ja": "入力が大きすぎると、サーバーはエラーを返す。",
+  "lift": []
+ },
+ {
+  "en": "Back up your data before you update the system.",
+  "form": "plain",
+  "base": "システムを更新する前に、データのバックアップを取っておいて。",
+  "ja": "システムを更新する前に、データのバックアップを取っておいて。",
+  "lift": []
+ },
+ {
+  "en": "The old man sat on the bench and fed the pigeons.",
+  "form": "plain",
+  "base": "老人はベンチに座って鳩に餌をやっていた。",
+  "ja": "老人はベンチに座って鳩に餌をやっていたのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ]
+  ]
+ },
+ {
+  "en": "The children ran across the field, laughing loudly.",
+  "form": "plain",
+  "base": "子供たちは大声で笑いながら野原を駆け抜けた。",
+  "ja": "子供たちは大声で笑いながら野原を駆け抜けたのだ。",
+  "lift": [
+   [
+    21,
+    23
+   ],
+   [
+    23,
+    24
+   ]
+  ]
+ },
+ {
+  "en": "When the bell rang, everyone stood up at once.",
+  "form": "plain",
+  "base": "ベルが鳴ると、みんな一斉に立ち上がった。",
+  "ja": "ベルが鳴ると、みんな一斉に立ち上がったのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ]
+  ]
+ },
+ {
+  "en": "He looked out of the window and saw the first snow of the year.",
+  "form": "plain",
+  "base": "彼は窓の外を見て、今年初めての雪を見た。",
+  "ja": "彼は窓の外を見て、今年初めての雪を見たのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ]
+  ]
+ },
+ {
+  "en": "The ship slowly disappeared over the horizon.",
+  "form": "plain",
+  "base": "船は地平線の向こうにゆっくりと消えていった。",
+  "ja": "船は地平線の向こうにゆっくりと消えていったのだ。",
+  "lift": [
+   [
+    21,
+    23
+   ],
+   [
+    23,
+    24
+   ]
+  ]
+ },
+ {
+  "en": "She closed the book and turned off the light.",
+  "form": "plain",
+  "base": "彼女は本を閉じ、明かりを消した。",
+  "ja": "彼女は本を閉じ、明かりを消したのだ。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ]
+  ]
+ },
+ {
+  "en": "A strange noise came from the kitchen in the middle of the night.",
+  "form": "plain",
+  "base": "真夜中に台所から変な音がした。",
+  "ja": "真夜中に台所から変な音がしたのだ。",
+  "lift": [
+   [
+    14,
+    16
+   ],
+   [
+    16,
+    17
+   ]
+  ]
+ },
+ {
+  "en": "The village was quiet, and only the sound of the river could be heard.",
+  "form": "plain",
+  "base": "村は静まり返り、川の音だけが聞こえていた。",
+  "ja": "村は静まり返り、川の音だけが聞こえていたのだ。",
+  "lift": [
+   [
+    20,
+    22
+   ],
+   [
+    22,
+    23
+   ]
+  ]
+ },
+ {
+  "en": "They climbed the mountain and reached the top before sunrise.",
+  "form": "plain",
+  "base": "彼らは山を登り、日の出前に頂上にたどり着いた。",
+  "ja": "彼らは山を登り、日の出前に頂上にたどり着いたのだ。",
+  "lift": [
+   [
+    22,
+    24
+   ],
+   [
+    24,
+    25
+   ]
+  ]
+ },
+ {
+  "en": "I found an old photograph in the drawer.",
+  "form": "plain",
+  "base": "引き出しの中で古い写真を見つけた。",
+  "ja": "引き出しの中で古い写真を見つけたのだ。",
+  "lift": [
+   [
+    16,
+    18
+   ],
+   [
+    18,
+    19
+   ]
+  ]
+ },
+ {
+  "en": "The festival lasted three days, and the whole town celebrated.",
+  "form": "plain",
+  "base": "祭りは3日間続き、町中が祝った。",
+  "ja": "祭りは3日間続き、町中が祝ったのだ。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ]
+  ]
+ },
+ {
+  "en": "We walked along the beach until the sun went down.",
+  "form": "plain",
+  "base": "日が沈むまで浜辺を歩いた。",
+  "ja": "日が沈むまで浜辺を歩いたのだ。",
+  "lift": [
+   [
+    12,
+    14
+   ],
+   [
+    14,
+    15
+   ]
+  ]
+ },
+ {
+  "en": "I tried the new café near the park. The coffee was good, but it was too crowded.",
+  "form": "plain",
+  "base": "公園の近くにある新しいカフェに行ってみた。コーヒーは美味しかったけど、混みすぎていた。",
+  "ja": "公園の近くにある新しいカフェに行ってみたのだ。コーヒーは美味しかったけど、混みすぎていたのだ。",
+  "lift": [
+   [
+    20,
+    22
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    44,
+    46
+   ],
+   [
+    46,
+    47
+   ]
+  ]
+ },
+ {
+  "en": "The update is ready. Restart the app to apply it.",
+  "form": "plain",
+  "base": "アップデートの準備ができた。アプリを再起動して適用して。",
+  "ja": "アップデートの準備ができたのだ。アプリを再起動して適用して。",
+  "lift": [
+   [
+    13,
+    15
+   ],
+   [
+    15,
+    16
+   ]
+  ]
+ },
+ {
+  "en": "The cat jumped onto the table. Then it knocked over a glass of water.",
+  "form": "plain",
+  "base": "猫がテーブルに飛び乗った。それからコップの水をひっくり返した。",
+  "ja": "猫がテーブルに飛び乗ったのだ。それからコップの水をひっくり返したのだ。",
+  "lift": [
+   [
+    12,
+    14
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    32,
+    34
+   ],
+   [
+    34,
+    35
+   ]
+  ]
+ },
+ {
+  "en": "Are you free this afternoon? I'd like to talk to you about something.",
+  "form": "plain",
+  "base": "今日の午後、空いてる？ちょっと話したいことがあるんだ。",
+  "ja": "今日の午後、空いてるのだ？ちょっと話したいことがあるんだ。",
+  "lift": [
+   [
+    10,
+    12
+   ],
+   [
+    12,
+    13
+   ]
+  ]
+ },
+ {
+  "en": "If the password is wrong three times, the account is locked for ten minutes.",
+  "form": "plain",
+  "base": "パスワードを3回間違えると、アカウントが10分間ロックされる。",
+  "ja": "パスワードを3回間違えると、アカウントが10分間ロックされるのだ。",
+  "lift": [
+   [
+    30,
+    32
+   ],
+   [
+    32,
+    33
+   ]
+  ]
+ },
+ {
+  "en": "The update is ready. Restart the app to apply it. The build failed because a dependency could not be downloaded. That is a wonderful idea!",
+  "form": "plain",
+  "base": "アップデートの準備ができた。アプリを再起動して適用して。依存関係をダウンロードできなかったため、ビルドに失敗した。素晴らしいアイデアだね！",
+  "ja": "アップデートの準備ができたのだ。アプリを再起動して適用して。依存関係をダウンロードできなかったため、ビルドに失敗したのだ。素晴らしいアイデアだね！",
+  "lift": [
+   [
+    13,
+    15
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    58,
+    60
+   ],
+   [
+    60,
+    61
+   ]
+  ]
+ },
+ {
+  "en": "Check the log file for more details. The test passes on Linux but fails on Windows. This option is deprecated and will be removed soon.",
+  "form": "plain",
+  "base": "詳細はログファイルを確認してほしい。このテストはLinuxではパスするが、Windowsでは失敗する。このオプションは非推奨となっており、まもなく削除される。",
+  "ja": "詳細はログファイルを確認してほしいのだ。このテストはLinuxではパスするが、Windowsでは失敗するのだ。このオプションは非推奨となっており、まもなく削除されるのだ。",
+  "lift": [
+   [
+    17,
+    19
+   ],
+   [
+    19,
+    20
+   ],
+   [
+    52,
+    54
+   ],
+   [
+    54,
+    55
+   ],
+   [
+    82,
+    84
+   ],
+   [
+    84,
+    85
+   ]
+  ]
+ },
+ {
+  "en": "Each request must include a valid API key in the header. Is this seat taken? When the bell rang, everyone stood up at once.",
+  "form": "plain",
+  "base": "各リクエストのヘッダーには、有効なAPIキーを含める必要がある。この席は埋まっているか？ベルが鳴ると、全員が一斉に立ち上がった。",
+  "ja": "各リクエストのヘッダーには、有効なAPIキーを含める必要があるのだ。この席は埋まっているか？ベルが鳴ると、全員が一斉に立ち上がったのだ。",
+  "lift": [
+   [
+    31,
+    33
+   ],
+   [
+    33,
+    34
+   ],
+   [
+    65,
+    67
+   ],
+   [
+    67,
+    68
+   ]
+  ]
+ },
+ {
+  "en": "Check the log file for more details. I'm sorry I'm late. The train was delayed.",
+  "form": "plain",
+  "base": "詳細はログファイルを確認して。遅れてごめん。電車が遅れちゃった。",
+  "ja": "詳細はログファイルを確認して。遅れてごめん。電車が遅れちゃったのだ。",
+  "lift": [
+   [
+    31,
+    33
+   ],
+   [
+    33,
+    34
+   ]
+  ]
+ },
+ {
+  "en": "I'm sorry I'm late. The train was delayed. The update is ready. Restart the app to apply it. The file could not be found. Please check the path and try again.",
+  "form": "plain",
+  "base": "遅れてごめん。電車が遅れちゃった。アップデートはできたよ。アプリを再起動して適用して。ファイルが見つからなかったんだ。パスを確認して、もう一度試してみて。",
+  "ja": "遅れてごめん。電車が遅れちゃったのだ。アップデートはできたよ。アプリを再起動して適用して。ファイルが見つからなかったんだ。パスを確認して、もう一度試してみて。",
+  "lift": [
+   [
+    16,
+    18
+   ],
+   [
+    18,
+    19
+   ]
+  ]
+ },
+ {
+  "en": "If the password is wrong three times, the account is locked for ten minutes. I can't believe he said that to you. Back up your data before you update the system. The festival lasted three days, and the whole town celebrated.",
+  "form": "plain",
+  "base": "パスワードを3回間違えると、アカウントが10分間ロックされる。あいつがお前にそんなこと言うなんて信じられない。システムを更新する前にデータのバックアップを取っておけ。祭りは3日間続き、町中で祝われた。",
+  "ja": "パスワードを3回間違えると、アカウントが10分間ロックされるのだ。あいつがお前にそんなこと言うなんて信じられないのだ。システムを更新する前にデータのバックアップを取っておけ。祭りは3日間続き、町中で祝われたのだ。",
+  "lift": [
+   [
+    30,
+    32
+   ],
+   [
+    32,
+    33
+   ],
+   [
+    56,
+    58
+   ],
+   [
+    58,
+    59
+   ],
+   [
+    103,
+    105
+   ],
+   [
+    105,
+    106
+   ]
+  ]
+ },
+ {
+  "en": "Have you ever been to the sea in winter? Why didn't you tell me earlier? The file could not be found. Please check the path and try again. We walked along the beach until the sun went down.",
+  "form": "plain",
+  "base": "冬に海に行ったことある？なんでもっと早く教えてくれなかったの？ファイルが見つからなかったんだ。パスを確認して、もう一度やってみて。日が沈むまで浜辺を歩いたよ。",
+  "ja": "冬に海に行ったことあるのだ？なんでもっと早く教えてくれなかったのだ？ファイルが見つからなかったんだ。パスを確認して、もう一度やってみて。日が沈むまで浜辺を歩いたよ。",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    32,
+    33
+   ],
+   [
+    33,
+    34
+   ]
+  ]
+ },
+ {
+  "en": "They climbed the mountain and reached the top before sunrise. My cat always sleeps on my bed.",
+  "form": "plain",
+  "base": "彼らは山を登り、日の出前に頂上にたどり着いた。うちの猫はいつも私のベッドで寝ている。",
+  "ja": "彼らは山を登り、日の出前に頂上にたどり着いたのだ。うちの猫はいつも私のベッドで寝ているのだ。",
+  "lift": [
+   [
+    22,
+    24
+   ],
+   [
+    24,
+    25
+   ],
+   [
+    43,
+    45
+   ],
+   [
+    45,
+    46
+   ]
+  ]
+ },
+ {
+  "en": "The old man sat on the bench and fed the pigeons. The file could not be found. Please check the path and try again. Is this seat taken?",
+  "form": "plain",
+  "base": "老人はベンチに座って鳩に餌をやっていた。ファイルが見つからなかった。パスを確認して、もう一度試してみて。この席は空いてる？",
+  "ja": "老人はベンチに座って鳩に餌をやっていたのだ。ファイルが見つからなかったのだ。パスを確認して、もう一度試してみて。この席は空いてるのだ？",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    35,
+    37
+   ],
+   [
+    37,
+    38
+   ],
+   [
+    64,
+    66
+   ],
+   [
+    66,
+    67
+   ]
+  ]
+ },
+ {
+  "en": "We should leave before it gets dark. The ship slowly disappeared over the horizon. She closed the book and turned off the light.",
+  "form": "plain",
+  "base": "暗くなる前に出発すべきだ。船は地平線にゆっくりと消えていった。彼女は本を閉じ、明かりを消した。",
+  "ja": "暗くなる前に出発すべきなのだ。船は地平線にゆっくりと消えていったのだ。彼女は本を閉じ、明かりを消したのだ。",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    32,
+    34
+   ],
+   [
+    34,
+    35
+   ],
+   [
+    50,
+    52
+   ],
+   [
+    52,
+    53
+   ]
+  ]
+ },
+ {
+  "en": "The old man sat on the bench and fed the pigeons. Each request must include a valid API key in the header.",
+  "form": "plain",
+  "base": "老人はベンチに座り、鳩に餌をやっていた。各リクエストのヘッダーには、有効なAPIキーを含めなければならない。",
+  "ja": "老人はベンチに座り、鳩に餌をやっていたのだ。各リクエストのヘッダーには、有効なAPIキーを含めなければならないのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    55,
+    57
+   ],
+   [
+    57,
+    58
+   ]
+  ]
+ },
+ {
+  "en": "The server responds with an error when the input is too large. I can't believe he said that to you. Thanks. See you later.",
+  "form": "plain",
+  "base": "入力が大きすぎるとサーバーがエラーを返す。彼が君にそんなこと言ったなんて信じられない。ありがとう。じゃあまた後で。",
+  "ja": "入力が大きすぎるとサーバーがエラーを返す。彼が君にそんなこと言ったなんて信じられないのだ。ありがとう。じゃあまた後で。",
+  "lift": [
+   [
+    42,
+    44
+   ],
+   [
+    44,
+    45
+   ]
+  ]
+ },
+ {
+  "en": "Good morning. How are you today? I'm tired. Let's go home. We walked along the beach until the sun went down. This option is deprecated and will be removed soon.",
+  "form": "plain",
+  "base": "おはよう。今日は調子どう？疲れてるんだ。帰ろうよ。日が沈むまで浜辺を歩いたよ。このオプションは非推奨で、もうすぐ削除されるよ。",
+  "ja": "おはよう。今日は調子どう？疲れてるんだ。帰ろうよ。日が沈むまで浜辺を歩いたよ。このオプションは非推奨で、もうすぐ削除されるよ。",
+  "lift": []
+ },
+ {
+  "en": "Are you free this afternoon? I'd like to talk to you about something. The village was quiet, and only the sound of the river could be heard. She closed the book and turned off the light. Good morning. How are you today?",
+  "form": "plain",
+  "base": "今日の午後、空いてる？ちょっと話したいことがあるんだ。村は静かで、川の音だけが聞こえていた。彼女は本を閉じて、明かりを消した。おはよう。今日は調子はどう？",
+  "ja": "今日の午後、空いてるのだ？ちょっと話したいことがあるんだ。村は静かで、川の音だけが聞こえていたのだ。彼女は本を閉じて、明かりを消したのだ。おはよう。今日は調子はどう？",
+  "lift": [
+   [
+    10,
+    12
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    47,
+    49
+   ],
+   [
+    49,
+    50
+   ],
+   [
+    66,
+    68
+   ],
+   [
+    68,
+    69
+   ]
+  ]
+ },
+ {
+  "en": "The test passes on Linux but fails on Windows. My cat always sleeps on my bed. Don't worry. Everything will be fine. We walked along the beach until the sun went down.",
+  "form": "plain",
+  "base": "Linuxではテストが通るけど、Windowsでは落ちる。うちの猫はいつも私のベッドで寝てる。心配しないで。全部大丈夫だよ。日が沈むまでビーチ沿いを歩いたよ。",
+  "ja": "Linuxではテストが通るけど、Windowsでは落ちるのだ。うちの猫はいつも私のベッドで寝てるのだ。心配しないで。全部大丈夫だよ。日が沈むまでビーチ沿いを歩いたよ。",
+  "lift": [
+   [
+    28,
+    30
+   ],
+   [
+    30,
+    31
+   ],
+   [
+    48,
+    50
+   ],
+   [
+    50,
+    51
+   ]
+  ]
+ },
+ {
+  "en": "The festival lasted three days, and the whole town celebrated. Did you really do that by yourself? Let's meet at the station at noon.",
+  "form": "plain",
+  "base": "祭りは3日間続き、町中が祝った。本当に一人でやったの？正午に駅で待ち合わせしよう。",
+  "ja": "祭りは3日間続き、町中が祝ったのだ。本当に一人でやったのだ？正午に駅で待ち合わせしよう。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    28,
+    29
+   ],
+   [
+    29,
+    30
+   ]
+  ]
+ },
+ {
+  "en": "What are you doing this weekend? Don't worry. Everything will be fine. If the password is wrong three times, the account is locked for ten minutes. Have you ever been to the sea in winter?",
+  "form": "plain",
+  "base": "今週末は何するの？心配しないで。大丈夫だよ。パスワードを3回間違えると、10分間アカウントがロックされるんだ。冬に海に行ったことある？",
+  "ja": "今週末は何するのだ？心配しないで。大丈夫だよ。パスワードを3回間違えると、10分間アカウントがロックされるんだ。冬に海に行ったことあるのだ？",
+  "lift": [
+   [
+    8,
+    9
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    67,
+    69
+   ],
+   [
+    69,
+    70
+   ]
+  ]
+ },
+ {
+  "en": "The cache is cleared every time the application starts. I'm tired. Let's go home. We should leave before it gets dark. Check the log file for more details.",
+  "form": "plain",
+  "base": "アプリケーションを起動するたびにキャッシュがクリアされる。疲れた。帰ろう。暗くなる前に出発しよう。詳細はログファイルを確認して。",
+  "ja": "アプリケーションを起動するたびにキャッシュがクリアされるのだ。疲れたのだ。帰ろう。暗くなる前に出発しよう。詳細はログファイルを確認して。",
+  "lift": [
+   [
+    28,
+    30
+   ],
+   [
+    30,
+    31
+   ],
+   [
+    34,
+    36
+   ],
+   [
+    36,
+    37
+   ]
+  ]
+ },
+ {
+  "en": "The file could not be found. Please check the path and try again. Why didn't you tell me earlier? The old man sat on the bench and fed the pigeons.",
+  "form": "plain",
+  "base": "ファイルが見つかりませんでした。パスを確認して、もう一度お試しください。なぜもっと早く教えてくれなかったのですか？老人はベンチに座って鳩に餌をやっていた。",
+  "ja": "ファイルが見つかりませんでしたのだ。パスを確認して、もう一度お試しくださいのだ。なぜもっと早く教えてくれなかったのですか？老人はベンチに座って鳩に餌をやっていたのだ。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    37,
+    39
+   ],
+   [
+    39,
+    40
+   ],
+   [
+    80,
+    82
+   ],
+   [
+    82,
+    83
+   ]
+  ]
+ },
+ {
+  "en": "The festival lasted three days, and the whole town celebrated. Could you open the window? It's a little hot in here. The old man sat on the bench and fed the pigeons.",
+  "form": "plain",
+  "base": "祭りは3日間続き、町中が祝った。窓を開けてくれる？ここ、ちょっと暑いんだ。おじいさんはベンチに座って、鳩に餌をやっていた。",
+  "ja": "祭りは3日間続き、町中が祝ったのだ。窓を開けてくれるのだ？ここ、ちょっと暑いんだ。おじいさんはベンチに座って、鳩に餌をやっていたのだ。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    26,
+    28
+   ],
+   [
+    28,
+    29
+   ],
+   [
+    64,
+    66
+   ],
+   [
+    66,
+    67
+   ]
+  ]
+ },
+ {
+  "en": "Back up your data before you update the system. I forgot my umbrella again. If the password is wrong three times, the account is locked for ten minutes.",
+  "form": "plain",
+  "base": "システムを更新する前に、データのバックアップを取っておいて。また傘を忘れちゃった。パスワードを3回間違えると、アカウントが10分間ロックされるよ。",
+  "ja": "システムを更新する前に、データのバックアップを取っておいて。また傘を忘れちゃったのだ。パスワードを3回間違えると、アカウントが10分間ロックされるよ。",
+  "lift": [
+   [
+    40,
+    42
+   ],
+   [
+    42,
+    43
+   ]
+  ]
+ },
+ {
+  "en": "The old man sat on the bench and fed the pigeons. When the bell rang, everyone stood up at once. I really want to see that movie. The cache is cleared every time the application starts.",
+  "form": "plain",
+  "base": "老人はベンチに座って鳩に餌をやっていた。ベルが鳴ると、みんな一斉に立ち上がった。あの映画、本当に見たい。アプリを起動するたびにキャッシュがクリアされる。",
+  "ja": "老人はベンチに座って鳩に餌をやっていたのだ。ベルが鳴ると、みんな一斉に立ち上がったのだ。あの映画、本当に見たいのだ。アプリを起動するたびにキャッシュがクリアされるのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    41,
+    43
+   ],
+   [
+    43,
+    44
+   ],
+   [
+    55,
+    57
+   ],
+   [
+    57,
+    58
+   ],
+   [
+    81,
+    83
+   ],
+   [
+    83,
+    84
+   ]
+  ]
+ },
+ {
+  "en": "He looked out of the window and saw the first snow of the year. If the password is wrong three times, the account is locked for ten minutes.",
+  "form": "plain",
+  "base": "彼は窓の外を見て、今年初めての雪を見た。パスワードを3回間違えると、アカウントが10分間ロックされる。",
+  "ja": "彼は窓の外を見て、今年初めての雪を見たのだ。パスワードを3回間違えると、アカウントが10分間ロックされるのだ。",
+  "lift": [
+   [
+    19,
+    21
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    52,
+    54
+   ],
+   [
+    54,
+    55
+   ]
+  ]
+ },
+ {
+  "en": "We should leave before it gets dark. The children ran across the field, laughing loudly. Don't worry. Everything will be fine.",
+  "form": "plain",
+  "base": "暗くなる前に出発しよう。子供たちは大声で笑いながら野原を駆け抜けていった。心配しないで。大丈夫だよ。",
+  "ja": "暗くなる前に出発しよう。子供たちは大声で笑いながら野原を駆け抜けていったのだ。心配しないで。大丈夫だよ。",
+  "lift": [
+   [
+    36,
+    38
+   ],
+   [
+    38,
+    39
+   ]
+  ]
+ },
+ {
+  "en": "I don't think that's a good idea. Let's meet at the station at noon. That is a wonderful idea!",
+  "form": "plain",
+  "base": "それはいい考えだとは思わないな。正午に駅で待ち合わせしよう。それは素晴らしいアイデアだ！",
+  "ja": "それはいい考えだとは思わないな。正午に駅で待ち合わせしよう。それは素晴らしいアイデアなのだ！",
+  "lift": [
+   [
+    42,
+    44
+   ],
+   [
+    45,
+    46
+   ]
+  ]
+ },
+ {
+  "en": "The village was quiet, and only the sound of the river could be heard. I can't believe he said that to you. Each request must include a valid API key in the header. Did you really do that by yourself?",
+  "form": "plain",
+  "base": "村は静まり返っていて、川の音だけが聞こえていた。彼が君にそんなことを言ったなんて信じられない。リクエストには必ずヘッダーに有効なAPIキーを含めなければならない。本当に一人でやったのか？",
+  "ja": "村は静まり返っていて、川の音だけが聞こえていたのだ。彼が君にそんなことを言ったなんて信じられないのだ。リクエストには必ずヘッダーに有効なAPIキーを含めなければならないのだ。本当に一人でやったのか？",
+  "lift": [
+   [
+    23,
+    25
+   ],
+   [
+    25,
+    26
+   ],
+   [
+    48,
+    50
+   ],
+   [
+    50,
+    51
+   ],
+   [
+    84,
+    86
+   ],
+   [
+    86,
+    87
+   ]
+  ]
+ },
+ {
+  "en": "They climbed the mountain and reached the top before sunrise. The update is ready. Restart the app to apply it.",
+  "form": "plain",
+  "base": "彼らは山を登り、日の出前に山頂に到達した。アップデートの準備が整った。アプリを再起動して適用してください。",
+  "ja": "彼らは山を登り、日の出前に山頂に到達したのだ。アップデートの準備が整ったのだ。アプリを再起動して適用してくださいのだ。",
+  "lift": [
+   [
+    20,
+    22
+   ],
+   [
+    22,
+    23
+   ],
+   [
+    36,
+    38
+   ],
+   [
+    38,
+    39
+   ],
+   [
+    56,
+    58
+   ],
+   [
+    58,
+    59
+   ]
+  ]
+ },
+ {
+  "en": "Have you ever been to the sea in winter? That is a wonderful idea!",
+  "form": "plain",
+  "base": "冬に海に行ったことある？それは素敵な考えだね！",
+  "ja": "冬に海に行ったことあるのだ？それは素敵な考えだね！",
+  "lift": [
+   [
+    11,
+    13
+   ],
+   [
+    13,
+    14
+   ]
+  ]
+ },
+ {
+  "en": "I found an old photograph in the drawer. Back up your data before you update the system.",
+  "form": "plain",
+  "base": "引き出しから古い写真を見つけた。システムを更新する前に、データのバックアップを取っておいて。",
+  "ja": "引き出しから古い写真を見つけたのだ。システムを更新する前に、データのバックアップを取っておいて。",
+  "lift": [
+   [
+    15,
+    17
+   ],
+   [
+    17,
+    18
+   ]
+  ]
+ },
+ {
+  "en": "This option is deprecated and will be removed soon. The festival lasted three days, and the whole town celebrated. The server responds with an error when the input is too large. Please wait here for a moment.",
+  "form": "plain",
+  "base": "このオプションは非推奨となっており、まもなく削除される。フェスティバルは3日間行われ、町中で祝われた。入力が大きすぎるとサーバーがエラーを返す。ここで少々お待ちください。",
+  "ja": "このオプションは非推奨となっており、まもなく削除されるのだ。フェスティバルは3日間行われ、町中で祝われたのだ。入力が大きすぎるとサーバーがエラーを返す。ここで少々お待ちくださいのだ。",
+  "lift": [
+   [
+    27,
+    29
+   ],
+   [
+    29,
+    30
+   ],
+   [
+    52,
+    54
+   ],
+   [
+    54,
+    55
+   ],
+   [
+    88,
+    90
+   ],
+   [
+    90,
+    91
+   ]
+  ]
+ }
+]
